@@ -54,7 +54,7 @@ public class Main {
 Напишите программу, которая выводит в консоль последовательность чисел:
 7 14 21 28 35 42 49 56 63 70 77 84 91 98
          */
-        System.out.println("Задача № 6");
+        System.out.println("Задача №6");
         for (int a = 7; a <= 98; a = a + 7) {
             System.out.println(a);
 
