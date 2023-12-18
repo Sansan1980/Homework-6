@@ -103,11 +103,5 @@ public class Main {
              int i = 2 * a;
                 System.out.println( i );
             }
-
-
-
-
-
-
     }
 }
