@@ -101,7 +101,7 @@ public class Main {
 
             for ( int a = 0; a <= 10; a++) {
              int i = 2 * a;
-                System.out.println( i );
+                System.out.println( "2 * "+a+ " = "+i );
             }
     }
 }
