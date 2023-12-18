@@ -63,10 +63,10 @@ public class Main {
 Напишите программу, которая выводит в консоль последовательность чисел:
 1 2 4 8 16 32 64 128 256 512
              */
-            System.out.println("Задача №7");
-            for (int i = 1; i <= 512; i = i * 2) {
-                System.out.println(i);
-           }
+        System.out.println("Задача №7");
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.println(i);
+        }
              /*
             Задача 8
 Посчитайте с помощью цикла for сумму годовых накоплений, если каждый месяц вы будете откладывать по 29 000 рублей «в банку».
@@ -74,16 +74,23 @@ public class Main {
              */
         int capitalAmount = 0;
         int capital = 29000;
-        for (int a = 1; a <= 12; a++){
-            capitalAmount = capitalAmount +capital;
-            System.out.println("Месяц"+ a +" …, сумма накоплений равна "+ capitalAmount + "… рублей ");
+        for (int a = 1; a <= 12; a++) {
+            capitalAmount = capitalAmount + capital;
+            System.out.println("Месяц" + a + " …, сумма накоплений равна " + capitalAmount + "… рублей ");
         }
+        /*
+        Задача 9
+Перепишите решение задачи выше при условии, что деньги вы откладывать будете не «в банку»,
+ а в банк под проценты — 12% годовых. Выведите сумму накоплений за каждый месяц в консоль в формате:
+ «Месяц …, сумма накоплений равна … рублей».
+         */
+       capitalAmount = 0;
+        capital = 29000;
+        for (int a = 1; a <= 12; a++) {
+            capitalAmount = capitalAmount + (capital + capital / 100);
+            System.out.println("Месяц" + a + " …, сумма накоплений равна " + capitalAmount + "… рублей ");
 
 
-
-
-
-
-
+        }
     }
 }
