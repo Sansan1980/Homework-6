@@ -20,6 +20,13 @@ public class Main {
         System.out.println("Задача № 2");
         for (int i = 10; i >= 1; i--)
             System.out.println(i);
+         /*
+        Задача 3
+Выведите в консоль все четные числа от 0 до 17.
+         */
+        System.out.println("Задача № 3");
+        for (int i = 0; i <= 17; i = i + 2)
+            System.out.println(i);
 
 
     }
